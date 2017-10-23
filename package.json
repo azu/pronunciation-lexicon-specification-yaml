@@ -11,7 +11,7 @@
     "src/"
   ],
   "name": "pronunciation-lexicon-specification-yaml",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert YAML(YML) to Pronunciation Lexicon Specification(PLS) XML.",
   "main": "lib/pronunciation-lexicon-specification-yaml.js",
   "scripts": {
