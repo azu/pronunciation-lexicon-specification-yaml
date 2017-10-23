@@ -1,4 +1,4 @@
-# pronunciation-lexicon-specification-yaml
+# pronunciation-lexicon-specification-yaml [![Build Status](https://travis-ci.org/azu/pronunciation-lexicon-specification-yaml.svg?branch=master)](https://travis-ci.org/azu/pronunciation-lexicon-specification-yaml)
 
 Convert YAML(YML) to Pronunciation Lexicon Specification(PLS) XML.
 
