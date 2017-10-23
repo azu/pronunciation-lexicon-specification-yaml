@@ -1,8 +1,8 @@
 // MIT © 2017 azu
 import { safeLoad } from "js-yaml";
-import { toPLSXML } from "pronunciation-lexicon-specification-json";
+import { jsonToPLSXML } from "pronunciation-lexicon-specification-json";
 
-export function toPLSXML(yaml: string) {
+export function yamlToPLSXML(yaml: string) {
     const json = safeLoad(yaml);
-    return toPLSXML(json);
+    return jsonToPLSXML(json);
 }

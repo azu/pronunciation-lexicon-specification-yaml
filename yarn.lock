@@ -635,9 +635,9 @@ pretty-format@^21.2.1:
     ansi-regex "^3.0.0"
     ansi-styles "^3.2.0"
 
-pronunciation-lexicon-specification-json@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/pronunciation-lexicon-specification-json/-/pronunciation-lexicon-specification-json-1.0.1.tgz#d5b5981cc0b0cf89307c7123338935209d7fcd43"
+pronunciation-lexicon-specification-json@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/pronunciation-lexicon-specification-json/-/pronunciation-lexicon-specification-json-1.0.2.tgz#50ca150700e94cdc37653e7af8840c01b5a59f62"
   dependencies:
     "@types/lodash.groupby" "^4.6.3"
     "@types/xml-js" "^1.0.0"
