@@ -1,0 +1,9 @@
+lang: "en-US"
+alphabet: "ipa"
+lexeme:
+  - grapheme:
+    - "colour"
+    - "color"
+    phoneme: "kʌlər"
+  - grapheme: "Roberto"
+    phoneme: "ɹəˈbɛːɹɾoʊ"

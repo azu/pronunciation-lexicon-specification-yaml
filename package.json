@@ -1,0 +1,70 @@
+{
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "files": [
+    "bin/",
+    "lib/",
+    "src/"
+  ],
+  "name": "pronunciation-lexicon-specification-yaml",
+  "version": "1.0.0",
+  "description": "Convert YAML(YML) to Pronunciation Lexicon Specification(PLS) XML.",
+  "main": "lib/pronunciation-lexicon-specification-yaml.js",
+  "scripts": {
+    "test": "mocha 'test/**/*.ts'",
+    "prettier": "prettier --write '**/*.{js,jsx,ts,tsx,css}'",
+    "precommit": "lint-staged",
+    "postcommit": "git reset",
+    "build": "cross-env NODE_ENV=production tsc -p .",
+    "watch": "tsc -p . --watch",
+    "prepublish": "npm run --if-present build"
+  },
+  "keywords": [
+    "pls",
+    "xml",
+    "json",
+    "amazon",
+    "polly",
+    "yaml",
+    "yml"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/pronunciation-lexicon-specification-yaml.git"
+  },
+  "bugs": {
+    "url": "https://github.com/azu/pronunciation-lexicon-specification-yaml/issues"
+  },
+  "homepage": "https://github.com/azu/pronunciation-lexicon-specification-yaml",
+  "devDependencies": {
+    "@types/mocha": "^2.2.43",
+    "@types/node": "^8.0.46",
+    "cross-env": "^5.1.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.3.0",
+    "mocha": "^4.0.1",
+    "prettier": "^1.7.4",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.3"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "tabWidth": 4
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,css}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "types": "lib/pronunciation-lexicon-specification-yaml.d.ts",
+  "dependencies": {
+    "@types/js-yaml": "^3.9.1",
+    "js-yaml": "^3.10.0",
+    "pronunciation-lexicon-specification-json": "^1.0.1"
+  }
+}
